@@ -1,0 +1,52 @@
+
+body{
+font-family: sans-serif
+}
+
+header {
+background-color: #FF337A;
+color: white;
+font-size: 35px;
+font-family: sans-serif;
+}
+
+nav {
+font-family: sans-serif;
+font-size: 12px;
+background-color: white;
+color: #FF337A;
+border: 3px solid white;
+}
+
+main {
+border: 2px solid black;
+font-family: sans-serif;
+margin: 10 px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.picture_list{
+font-size: 14px;
+margin: 10px;
+}
+
+footer {
+font-family: sans-serif;
+background-color: #FF337A;
+color: white;
+}
+
+a {
+    font-weight: bold;
+    color: #FF337A;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#FFC7DB
+}
