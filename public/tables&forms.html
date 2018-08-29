@@ -70,6 +70,19 @@
               color: white;
           }
 
+          form {
+              background-color: #FF337A;
+              padding: 15px;
+              color: black;
+              border-radius: 10px;
+          }
+
+
+          input, textarea, select{
+              margin: 5px;
+          }
+
+
       </style>
 </head>
 
@@ -84,7 +97,7 @@
 
         </ul>
 
-            <li><a href="">Home</a></li>
+            <li><a href="index.html">Home</a></li>
 
             <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">About Me<span class="caret"></span></a></li>
               <ul class=dropdown-menu">
@@ -170,7 +183,53 @@
 
       </table>
 
-      
+
+      <form action=""
+            method="post">
+
+          <center><h2> Add to Wishlist </h2></center>
+
+  <div class="container-fluid">
+
+  <div class="row">
+
+              <div class="input-group">
+              <label for="item" class="input-group-addon">Item: </label>
+              <input type="text" name="item" id="street" class="form-control input-sm">
+              </div>
+
+                  <br>
+
+              <div class="input-group">
+              <label for="store" class="input-group-addon">Store: </label>
+              <input type="text" name="store" id="street" class="form-control input-sm">
+              </div>
+
+              <br>
+
+              <div class="input-group">
+              <label for="price" class="input-group-addon">Price:</label>
+              <input type="text" name="price" id="street" class="form-control input-sm">
+              </div>
+
+      <br>
+
+              <div class="input-group">
+              <label for="rankofdesire" class="input-group-addon">Rank of Desire:</label>
+              <input type="text" name="rankofdesire" id="street" class="form-control input-sm">
+              </div>
+
+
+      <br>
+
+          <center><input class="button" type="submit" value="Submit" id="button"></center>
+          </div>
+
+
+
+      </div>
+      </form>
+
     </main>
 
     <footer class="row">
